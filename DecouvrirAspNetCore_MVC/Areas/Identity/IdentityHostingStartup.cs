@@ -20,6 +20,7 @@ namespace DecouvrirAspNetCore_MVC.Areas.Identity
                         context.Configuration.GetConnectionString("DecouvrirAspNetCore_MVCIdentityDbContextConnection")));
 
                 services.AddDefaultIdentity<IdentityUser>()
+                    .AddDefaultUI(UIFramework.Bootstrap4)
                     .AddEntityFrameworkStores<DecouvrirAspNetCore_MVCIdentityDbContext>();
             });
         }

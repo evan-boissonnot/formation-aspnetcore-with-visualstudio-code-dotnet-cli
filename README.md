@@ -29,3 +29,9 @@ dotnet aspnet-codegenerator identity
 
 ## 4. Add new controller
 dotnet aspnet-codegenerator controller -name SecondController -namespace DecouvrirAspNetCore_MVC.Controllers
+
+NOTE: launching web project coul failed : ANCM In-Process Start Failure
+try that : https://stackoverflow.com/questions/53811569/using-netcore-2-2-and-using-the-in-process-hosting-model
+
+Second possible failure : 
+try that : https://github.com/aspnet/AspNetCore.Docs/issues/8223
