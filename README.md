@@ -28,4 +28,4 @@ dotnet tool install --global dotnet-aspnet-codegenerator --version 2.2.3
 dotnet aspnet-codegenerator identity
 
 ## 4. Add new controller
-
+dotnet aspnet-codegenerator controller -name SecondController -namespace DecouvrirAspNetCore_MVC.Controllers
